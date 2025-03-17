@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f8f8;
+    margin: 20px;
+}
+
+#ramen-menu {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#ramen-menu img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+#ramen-menu img:hover {
+    transform: scale(1.1);
+}
+
+#ramen-detail {
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 300px;
+    background: white;
+    border-radius: 10px;
+}
+
+#ramen-detail img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+input, button {
+    margin: 5px 0;
+    padding: 8px;
+}
